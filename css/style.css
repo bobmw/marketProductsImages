@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.img-wrapper {
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.nav-style {
+    z-index: 5;
+    width: 100%;
+}
+
+.img-perfil {
+    border-radius: 8rem;
+    width: 100px;
+    height: 100px;
+}
+
+.myMarginSet {
+    margin-left: 50%;
+}
+
+.zoom {
+    animation: zoom 40s;
+}
+
+.superMercado-background {
+    background-image: url("https://images.unsplash.com/photo-1543083477-4f785aeafaa9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-position: center;
+  }
+
+
+.footer-background {
+  background-image: url("../img/cesta.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon {
+  width: 60px;
+}
+
+.icon-menu {
+  width: 30px;
+}
+  
+  .font-lobster {
+    font-family: lobster;
+    overflow: hidden;
+  }
+  
+  .text-black {
+    color: black;
+  }
+  
+  .img-default {
+    opacity: .8;
+  }
+  
+  .scrollmenu {
+    overflow-y: hidden;
+    overflow-x: visible;
+  }
+  
+  .marketItems {
+    width: 10rem;
+    border-radius: 1rem;
+  }
+
+  .bg-custom-secondary {
+    background-color: rgba(255, 228, 196, 0.637);
+  }
+
+  .indexBar {
+    z-index: 3;
+  }
+
+  @keyframes right {
+    from {
+        transform: translateX(-390%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.animate-right {
+    animation-name: right;
+    animation-duration: 1.5s;
+}
